@@ -2,6 +2,7 @@ Name:    jovie
 Summary: KTTS - KDE Text-to-Speech
 Version: 4.8.1
 Release: 1
+Epoch: 2
 Group: Graphical desktop/KDE
 License: LGPLv2
 URL:     http://www.kde.org/
