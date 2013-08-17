@@ -38,7 +38,6 @@ User Features:
 %{_kde_libdir}/kde4/jovie_talkerchooserplugin.so
 %{_kde_libdir}/kde4/jovie_xmltransformerplugin.so
 %{_kde_appsdir}/jovie
-%{_kde_appsdir}/kttsd
 %{_kde_iconsdir}/*/*/actions/female.png
 %{_kde_iconsdir}/*/*/actions/male.png
 %{_kde_iconsdir}/*/*/actions/nospeak.png
@@ -74,7 +73,7 @@ Group:		Development/KDE and Qt
 Requires:	kdelibs4-devel
 Requires:	%{libkttsd} = %{EVRD}
 
-%description  devel
+%description devel
 Files needed to build applications based on %{name}.
 
 %files devel
@@ -95,6 +94,7 @@ Files needed to build applications based on %{name}.
 %changelog
 * Wed Aug 14 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 2:4.11.0-1
 - New version 4.11.0
+- Update files list
 
 * Wed Jul 03 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 2:4.10.5-1
 - New version 4.10.5
