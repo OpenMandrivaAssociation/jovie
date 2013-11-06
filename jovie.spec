@@ -1,6 +1,6 @@
 Summary:	KTTS - KDE Text-to-Speech
 Name:		jovie
-Version:	4.11.2
+Version:	4.11.3
 Release:	1
 Epoch:		2
 License:	LGPLv2
@@ -92,6 +92,9 @@ Files needed to build applications based on %{name}.
 %makeinstall_std -C build
 
 %changelog
+* Wed Nov 06 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 2:4.11.3-1
+- New version 4.11.3
+
 * Wed Oct 02 2013 Andrey Bondrov <andrey.bondrov@rosalab.ru> 2:4.11.2-1
 - New version 4.11.2
 
