@@ -1,12 +1,12 @@
 Summary:	KTTS - KDE Text-to-Speech
 Name:		jovie
-Version:	14.12.0
+Version:	4.14.3
 Release:	1
 Epoch:		2
 License:	LGPLv2
 Group:		Graphical desktop/KDE
 Url:		http://www.kde.org/
-Source0:	ftp://ftp.kde.org/pub/kde/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
+Source:		ftp://ftp.kde.org/pub/kde/stable/%{version}/src/%{name}-%{version}.tar.xz
 BuildRequires:	kdelibs4-devel
 BuildRequires:	speech-dispatcher-devel
 Obsoletes:	kdeaccessibility4-core < 2:4.5.71
