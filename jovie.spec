@@ -1,6 +1,6 @@
 Summary:	KTTS - KDE Text-to-Speech
 Name:		jovie
-Version:	14.12.0
+Version:	14.12.2
 Release:	1
 Epoch:		2
 License:	LGPLv2
