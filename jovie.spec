@@ -7,7 +7,7 @@ License:	LGPLv2
 Group:		Graphical desktop/KDE
 Url:		http://www.kde.org/
 Source0:	ftp://ftp.kde.org/pub/kde/stable/applications/%{version}/src/%{name}-%{version}.tar.xz
-BuildRequires:	kdelibs4-devel
+BuildRequires:	kdelibs-devel
 BuildRequires:	speech-dispatcher-devel
 Obsoletes:	kdeaccessibility4-core < 2:4.5.71
 Obsoletes:	kdeaccessibility4 < 2:4.5.71
@@ -37,6 +37,7 @@ User Features:
 %{_kde_libdir}/kde4/jovie_stringreplacerplugin.so
 %{_kde_libdir}/kde4/jovie_talkerchooserplugin.so
 %{_kde_libdir}/kde4/jovie_xmltransformerplugin.so
+%{_datadir}/appdata/jovie.appdata.xml
 %{_kde_appsdir}/jovie
 %{_kde_iconsdir}/*/*/actions/female.png
 %{_kde_iconsdir}/*/*/actions/male.png
