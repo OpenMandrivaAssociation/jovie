@@ -1,7 +1,7 @@
 Summary:	KTTS - KDE Text-to-Speech
 Name:		jovie
 Version:	15.04.3
-Release:	1
+Release:	2
 Epoch:		2
 License:	LGPLv2
 Group:		Graphical desktop/KDE
