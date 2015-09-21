@@ -1,7 +1,7 @@
 Summary:	KTTS - KDE Text-to-Speech
 Name:		jovie
-Version:	15.08.0
-Release:	2
+Version:	15.08.1
+Release:	1
 Epoch:		2
 License:	LGPLv2
 Group:		Graphical desktop/KDE
@@ -86,7 +86,7 @@ Files needed to build applications based on %{name}.
 %setup -q
 
 %build
-%cmake_kde4
+%cmake_kde4 -DCMAKE_MINIMUM_REQUIRED_VERSION=2.6
 %make
 
 %install
