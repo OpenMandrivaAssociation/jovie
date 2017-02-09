@@ -1,6 +1,6 @@
 Summary:	KTTS - KDE Text-to-Speech
 Name:		jovie
-Version:	16.08.3
+Version:	16.12.2
 Release:	1
 Epoch:		2
 License:	LGPLv2
@@ -32,12 +32,10 @@ User Features:
 %files
 %doc %{_kde_docdir}/HTML/en/jovie
 %{_kde_bindir}/jovie
-%{_kde_applicationsdir}/jovieapp.desktop
 %{_kde_libdir}/kde4/kcm_kttsd.so
 %{_kde_libdir}/kde4/jovie_stringreplacerplugin.so
 %{_kde_libdir}/kde4/jovie_talkerchooserplugin.so
 %{_kde_libdir}/kde4/jovie_xmltransformerplugin.so
-%{_datadir}/appdata/jovie.appdata.xml
 %{_kde_appsdir}/jovie
 %{_kde_iconsdir}/*/*/actions/female.png
 %{_kde_iconsdir}/*/*/actions/male.png
@@ -50,6 +48,8 @@ User Features:
 %{_kde_services}/kcmkttsd.desktop
 %{_kde_services}/kttsd.desktop
 %{_kde_servicetypes}/jovie_filterplugin.desktop
+%{_datadir}/applications/kde4/org.kde.jovie.desktop
+%{_datadir}/metainfo/org.kde.jovie.appdata.xml
 
 #-----------------------------------------------------------------------------
 
